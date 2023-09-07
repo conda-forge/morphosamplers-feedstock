@@ -23,7 +23,7 @@ requirements:
     - einops
     - numpy
     - psygnal
-    - pydantic
+    - pydantic <2
     - python >=3.8
     - scipy
 
