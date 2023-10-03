@@ -3,11 +3,13 @@ About morphosamplers-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/morphosamplers-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/morphosamplers/
+Home: https://pypi.org/project/morphosamplers
 
 Package license: BSD-3-Clause
 
 Summary: A library for sampling image data along morphological objects such as splines and surfaces.
+
+Development: https://github.com/kevinyamauchi/morphosamplers
 
 Current build status
 ====================
