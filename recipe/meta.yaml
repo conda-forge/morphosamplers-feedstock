@@ -23,9 +23,11 @@ requirements:
     - einops
     - numpy
     - psygnal
-    - pydantic <2
+    - pydantic
+    - pydantic-compat
     - python >=3.8
     - scipy
+    - typing_extensions
 
 test:
   imports:
