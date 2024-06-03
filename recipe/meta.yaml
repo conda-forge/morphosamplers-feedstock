@@ -1,5 +1,5 @@
 {% set name = "morphosamplers" %}
-{% set version = "0.0.11" %}
+{% set version = "0.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/morphosamplers-{{ version }}.tar.gz
-  sha256: 8ac89eb4a10871336613d7be3ad4e2e4fd017dbf551f94b4b43609dc0e4fb77b
+  sha256: 63911eaedf8c7741cf6d6709bef45dc2d4904d8441aeb146f915663ad16532f0
 
 build:
   noarch: python
@@ -23,9 +23,11 @@ requirements:
     - einops
     - numpy
     - psygnal
-    - pydantic <2
+    - pydantic
+    - pydantic-compat
     - python >=3.8
     - scipy
+    - typing_extensions
 
 test:
   imports:
