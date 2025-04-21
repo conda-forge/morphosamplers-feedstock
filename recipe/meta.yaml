@@ -1,13 +1,13 @@
 {% set name = "morphosamplers" %}
-{% set version = "0.0.15" %}
+{% set version = "0.0.16" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/morphosamplers-{{ version }}.tar.gz
-  sha256: 6d0bb6acb917bee2bdbabcd1221e8b1a54c3cd085d4a7a817429cc60960ae608
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/morphosamplers-{{ version }}.tar.gz
+  sha256: 82097605e42f2129445ef4ac2235430ac10d1ec6dced918bfacc58d913377f58
 
 build:
   noarch: python
